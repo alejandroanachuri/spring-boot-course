@@ -29,5 +29,7 @@ class DepartmentRepositoryTest {
     public void testPersistData(){
         Department department = departmentRepository.findById(1L).get();
         assertEquals(department.getDepartmentName(), "Department 23");
+
+
     }
 }

@@ -7,7 +7,7 @@ spring:
     datasource:
         driverClassName: org.h2.Driver
         password: password
-        url: jdbc:h2:file:./database/dcbapp
+        url: jdbc:h2:file:C:/induApps/springBoot/course/database/dcbapp
         username: sa
     h2:
         console:
@@ -16,7 +16,7 @@ spring:
         database-platform: org.hibernate.dialect.H2Dialect
         show-sql: true
         hibernate:
-            ddl-auto: create-drop
+            ddl-auto: update
 ---
 spring:
     profiles: qa
